@@ -1,0 +1,372 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page2">
+		<div class="RB">Recent Books</div>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<div class="row">
+
+			<div class="column">
+				<div class="card">
+					<img src="img/b1.jpg" alt="Denim Jeans" style="width: 100%">
+					<p class="price">$19.99</p>
+					<p>
+						<button>
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>&ensp;Add
+							to Cart
+						</button>
+						<br>
+					</p>
+					<p class="buy">
+						<button>Buy</button>
+					</p>
+				</div>
+			</div>
+
+			<div class="column">
+				<div class="card">
+					<img src="img/b2.jpg" alt="Denim Jeans" style="width: 100%">
+					<p class="price">$19.99</p>
+					<p>
+						<button>
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>&ensp;Add
+							to Cart
+						</button>
+						<br>
+					</p>
+					<p class="buy">
+						<button>Buy</button>
+					</p>
+				</div>
+			</div>
+
+			<div class="column">
+				<div class="card">
+					<img src="img/b3.jpg" alt="Denim Jeans" style="width: 100%">
+					<p class="price">$19.99</p>
+					<p>
+						<button>
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>&ensp;Add
+							to Cart
+						</button>
+						<br>
+					</p>
+					<p class="buy">
+						<button>Buy</button>
+					</p>
+				</div>
+			</div>
+
+			<div class="column">
+				<div class="card">
+					<img src="img/b4.jpg" alt="Denim Jeans" style="width: 100%">
+					<p class="price">$19.99</p>
+					<p>
+						<button>
+							<i class="fa fa-shopping-cart" aria-hidden="true"></i>&ensp;Add
+							to Cart
+						</button>
+						<br>
+					</p>
+					<p class="buy">
+						<button>Buy</button>
+					</p>
+                    
+				</div>
+			</div>
+		</div>
+        <div class="page6">
+
+        </div>
+</body>
+</html>-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+    
+
+<style>
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	background-image: linear-gradient(45deg, #ae8ac0, #d2bedb);
+	font-family: 'Muli', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+	height: 100%;
+}
+
+.course {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	max-width: 100%;
+	margin: 20px;
+	overflow: hidden;
+	width: 700px;
+}
+
+.course h6 {
+	opacity: 0.6;
+	margin: 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.course h2 {
+	letter-spacing: 1px;
+	margin: 7px 0;
+	opacity: 0.6;
+}
+
+.course-preview {
+	background-color: #89995f;
+	color: #fff;
+	padding: 30px;
+	max-width: 250px;
+}
+
+.course-info {
+	padding: 30px;
+	position: relative;
+	width: 100%;
+}
+
+.btn {
+	background-color: #5c6742;
+	display: block;
+	outline: none;
+    border-radius: 6px;
+	border: 0;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	font-size: 16px;
+	padding: 12px 25px;
+	position: absolute;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	border: 2px solid #5c6742;
+	flex-wrap: nowrap;
+	bottom: 30px;
+	right: 30px;
+	letter-spacing: 1px;
+}
+
+.btn:hover {
+	color: #5c6742;
+    background: none;
+}
+
+img {
+	width: 40%;
+}
+
+.button-89 {
+  background-color : #5c6742;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border-color: #5c6742;
+}
+
+#mybutton {
+  position: fixed;
+  bottom: 45px;
+  right: 50px;
+}
+
+.button-55  {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+a {
+	text-decoration:none;
+	color: black;
+}
+
+.button-55:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+</style>
+
+</head>
+<body>
+
+	<div class="courses-container">
+		<div class="course">
+			<div class="course-preview">
+				<h6>Rich Dad Poor Dad</h6><br>
+				<img src="img/b5.jpg" alt="Denim Jeans">
+
+				
+				<!--<a href="#">View all chapters <i class="fas fa-chevron-right"></i></a>-->
+			</div> 
+			<div class="course-info">
+				<h2>Rich Dad Poor Dad <br> BY Robert T. kiyosaki</h2>
+				<!--<button class="btn">Continue</button>-->
+				<a class="btn" href="eBooks/Rich-Dad-Poor-Dad-eBook.pdf" target="_blank">Continue</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="courses-container">
+		<div class="course">
+			<div class="course-preview">
+				<h6>Power of Subconsious Mind</h6><br>
+				<img src="img/b1.jpg" alt="Denim Jeans">
+
+				
+				<!--<a href="#">View all chapters <i class="fas fa-chevron-right"></i></a>-->
+			</div>
+			<div class="course-info">
+				<h2>Power of Subconsious Mind <br> BY Dr. Joseph Murphy</h2>
+				<a class="btn" href="eBooks/power-subconscious-mind.pdf" target="_blank">Continue</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="courses-container">
+		<div class="course">
+			<div class="course-preview">
+				<h6>Atomic Habits</h6><br>
+				<img src="img/b2.jpg" alt="Denim Jeans">
+
+				
+				<!--<a href="#">View all chapters <i class="fas fa-chevron-right"></i></a>-->
+			</div>
+			<div class="course-info">
+				<h2>Atomic Habits <br> BY James Clear</h2>
+				<a class="btn" href="" target="_blank">Continue</a>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="courses-container">
+		<div class="course">
+			<div class="course-preview">
+				<h6>Ikiagi</h6><br>
+				<img src="img/ikiagi.png" alt="Denim Jeans">
+
+				
+				<!--<a href="#">View all chapters <i class="fas fa-chevron-right"></i></a>-->
+			</div>
+			<div class="course-info">
+				<h2>Ikiagi <br> BY Hector Garciabr and <br> Francesc Mirallers</h2>
+				<a class="btn" href="eBooks/Ikigai.pdf" target="_blank">Continue</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="courses-container">
+		<div class="course">
+			<div class="course-preview">
+				<h6>The Subtle Art of Not Giving a Fuck</h6><br>
+				<img src="img/b6.png" alt="Denim Jeans">
+
+				
+				<!--<a href="#">View all chapters <i class="fas fa-chevron-right"></i></a>-->
+			</div>
+			<div class="course-info">
+				<h2>The Subtle Art of Not Giving a Fuck <br> BY Mark Manson</h2>
+				<a class="btn" href="eBooks/The_Subtle_Art_of_Not_Giving_a_Fuck.pdf" target="_blank">Continue</a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="courses-container">
+		<div class="course">
+			<div class="course-preview">
+				<h6>Think Like a Monk</h6><br>
+				<img src="img/b3.jpg" alt="Denim Jeans">
+
+				
+				<!--<a href="#">View all chapters <i class="fas fa-chevron-right"></i></a>-->
+			</div>
+			<div class="course-info">
+				<h2>Think Like a Monk <br> BY Jay Shetty</h2>
+				<a class="btn" href="eBooks/Think Like a Monk by Jay Shetty.pdf" target="_blank">Continue</a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="courses-container">
+		<div class="course">
+			<div class="course-preview">
+				<h6>Bhagawad Geeta</h6><br>
+				<img src="img/b4.jpg" alt="Denim Jeans">
+
+				
+				<!--<a href="#">View all chapters <i class="fas fa-chevron-right"></i></a>-->
+			</div>
+			<div class="course-info">
+				<h2>Bhagavad Geeta <br> BY A.C. Bhaktivedanta Swami Prabhupada</h2>
+				<a class="btn" href="eBooks/Bhagavad-Geeta.pdf" target="_blank">Continue</a>
+			</div>
+		</div>
+	</div>
+	<div id="mybutton">
+		<button class="button-55" role="button" > <a href="index.html">Home</a></button>
+		</div>
+</body>
+</html>
